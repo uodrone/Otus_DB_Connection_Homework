@@ -13,12 +13,12 @@ namespace ConsoleApp3
         {
 
 
-            /*AddCustomer("Иван", "Иванов", 25);
+            AddCustomer("Иван", "Иванов", 25);
             AddCustomer("Мария", "Петрова", 30);
             AddCustomer("Сергей", "Сидоров", 40);
 
-            UpdateCustomer(12, "Порфирий", "Димитриевич", 77);
-            UpdateCustomer(13, "Серафим", "Серафимов", 55);*/
+            UpdateCustomer(2, "Порфирий", "Димитриевич", 77);
+            UpdateCustomer(3, "Серафим", "Серафимов", 55);
 
             var CustomerList = GetCustomersByNameStarts("С");
             CustomerList.ForEach(customer =>
